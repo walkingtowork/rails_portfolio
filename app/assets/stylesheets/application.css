@@ -46,6 +46,10 @@
    float: left;
    margin-left: 50px;
    margin-right: 50px;
+   line-height: 20px;
+ }
+ .nav_block:hover {
+   color: rgb(250, 227, 97);
  }
 
  .icon {
@@ -62,15 +66,37 @@
    background-color: black;
 }
 
- ul {
+ul {
    list-style-type: none;
- }
+}
 
- ul li:first-child {
+li {
+   /*border: 1px solid white;*/
+   padding-left: 1px;
+}
+
+ul li:first-child {
    font-size: 18px;
- }
+}
 
- #footer_bar {
+a:link {
+   text-decoration: none;
+   color: #E8E8E8;
+}
+a:visited {
+   text-decoration: none;
+   color: #E8E8E8;
+}
+a:hover {
+   text-decoration: none;
+   color: rgb(250, 227, 97);
+}
+a:active {
+   text-decoration: none;
+   color: #E8E8E8;
+}
+
+#footer_bar {
    font-size: 30px;
    height: 40px;
    position: fixed;

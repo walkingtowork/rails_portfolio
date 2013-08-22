@@ -34,6 +34,12 @@
   max-width: 280px;
   margin-bottom: 10px;
   margin-top: 2%;
+  // padding: 5px;
+}
+
+.image_thumb:hover {
+  border: 5px solid rgb(250, 227, 97);
+  border-radius: 5px;
 }
 
 #textbox {
