@@ -20,7 +20,8 @@
    margin: 120px 0 0 0;
    padding: 0;
    font-family: helvetica;
-   color: white;
+   /*color: white;*/
+   color: #E8E8E8;
    font-family: 'Press Start 2P', cursive;
  }
 
@@ -35,7 +36,7 @@
  #nav_container {
    width: 90%;
    border-radius: 10px;
-   border: 5px solid white;
+   border: 5px solid #E8E8E8;
    height: 90px;
    margin : 10px auto 10px auto;
    font-size: 16px;

@@ -14,7 +14,7 @@ Project.delete_all
 # Tower of Babel
 babel = Project.create(
   :name => "Tower of Babel",
-  :description => "While living in Japan, I really wished I'd had an easy way to meet new friends interested in doing a language exchange. Tower of Babel is a social networking site that is aimed at connecting people who want to learn and practice new languages.",
+  :description => "While living in Japan, I often wished I'd had an easy way to meet new friends interested in doing a language exchange. Tower of Babel is a social networking site that is aimed at connecting people who want to learn and practice new languages.",
   :image_url => "towerofbabel_01.png",
   :is_complete => false,
   :url => "http://tower-of-babel.herokuapp.com/",
