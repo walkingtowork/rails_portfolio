@@ -1,0 +1,26 @@
+<div id="body_container">
+  <!-- <h1>Alex's Projects</h1> -->
+
+  <div id="about_me">
+    <!-- About Me Block -->
+  </div>
+
+  <div id="project_collection">
+    <% @projects.each do |project| %>
+      <div class="project_block" id="<%= project.id_name %>">
+        <%= image_tag "#{project.image_url}", class: "image_thumb" %>
+        <%= project.name %>
+
+        </img>
+      </div>
+    <% end %>
+  </div>
+
+  <div id="social_media">
+    <!-- Social Media Block -->
+  </div>
+
+  <div id="textbox">
+    Text goes here
+  </div>
+</div>
