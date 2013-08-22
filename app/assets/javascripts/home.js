@@ -38,24 +38,4 @@ $(document).ready(function(){
     textbox.append(directions);
   });
 
-
-
-
 });
-
-
-//   textbox.on('click', function() {
-//     $(this).hide();
-//     project_block.on('click', show_project_message);
-//   });
-
-// });
-
-// function show_project_message() {
-//   var textbox = $('#item_box');
-//   // item_box.hide();
-//   var project = $(this);
-//   textbox.text(project.data('message'));
-//   // item_box.fadeIn();
-//   // $('img').off('click');
-// };
