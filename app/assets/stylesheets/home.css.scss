@@ -6,17 +6,38 @@
   // border: 1px solid white;
 }
 
-#about_me {
-  height: 400px;
-  width: 100%;
+#status {
+  height: 320px;
+  width: 75%;
+  border-radius: 10px;
+  border: 5px solid #E8E8E8;
+  margin: 0 auto;
   line-height: 25px;
-  display: none;
+}
+
+#portrait {
+  max-height: 270px;
+  max-width: 280px;
+
+  float: left;
+  margin-left: 20%;
+  margin-top: 15px;
+  // display: none;
+}
+
+#character_screen {
+  height: 290px;
+  width: 280px;
+
+  margin-left: 20%;
+  margin-top: 15px;
+  float: left;
 }
 
 #project_collection {
   height: 300px;
   width: 100%;
-  // display: none;
+  display: none;
 }
 
 .project_block {
@@ -50,4 +71,13 @@
   line-height: 25px;
   margin: 0 auto;
   padding: 20px 20px 20px 25px;
+}
+
+#about_me {
+  line-height: 25px;
+  // display: none;
+}
+
+#directions {
+  display: none;
 }
