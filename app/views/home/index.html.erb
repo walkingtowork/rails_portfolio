@@ -28,7 +28,7 @@
   </div>
 
   <div id="project_collection">
-    <% @projects.each do |project| %>
+    <% @projects.reverse.each do |project| %>
       <div class="project_block" id="<%= project.id_name %>">
         <%= image_tag "#{project.image_url}", class: "image_thumb", :data => { :name => project.name, :message => project.description } %>
         <br>
